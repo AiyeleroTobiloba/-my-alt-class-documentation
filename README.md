@@ -9,7 +9,7 @@ The dashboard provides an overview of revenue, product performance, order volume
 **Project type:** Data Analytics  
 **Tools:** Microsoft Power BI, SQL Server Management Studio (SSMS)  
 **Data coverage:** 2024–2025 (as displayed in the dashboard)  
-**Author:** [Your Name]
+**Author:** Aiyelero Tobiloba
 
 ## Business Problem
 
@@ -50,11 +50,11 @@ The fields referenced in the SQL queries include:
 
 The Power BI dashboard also displays unit price, sales, and quantity sold metrics.
 
-**Dataset source:** [Insert dataset source or download link]
+**Dataset source:** Kaggle 
 
-**Dataset size:** [Insert number of rows and columns]
+**Dataset size:** [3547 rows , 11 Columns]
 
-**Currency:** [Confirm currency and units used in the dataset]
+**Currency:** [Dollars]
 
 ## Tools & Technologies
 
@@ -187,20 +187,20 @@ The following is a suggested repository structure. Update the filenames to match
 coffee-sales-dashboard/
 ├── README.md
 ├── dashboard/
-│   └── [Power BI dashboard file].pbix
+│   └── [Coffee Sales dashboard ].pbix
 ├── sql/
-│   └── [SQL analysis file].sql
+│   └── [Coffee Sales Query].sql
 ├── images/
 │   └── [dashboard screenshot].png
 └── data/
-    └── [coffee sales dataset file]
+    └── [Kaggle]
 ```
 
 **Note:** Only include files and folders that are actually present in your repository. If the dataset cannot be redistributed, provide its source or instructions for obtaining it instead.
 
 ## How to Reproduce the Analysis
 
-1. **Obtain the dataset.** Download or access the coffee sales dataset from [insert dataset source].
+1. **Obtain the dataset.** Download or access the coffee sales dataset from [Kaggle].
 2. **Set up the database.** Import the dataset into SQL Server and create or identify the `Coffee_sales` table.
 3. **Run the SQL queries.** Open the SQL script in SQL Server Management Studio and execute the relevant queries.
 4. **Open the Power BI report.** Use Power BI Desktop to open the `.pbix` file.
